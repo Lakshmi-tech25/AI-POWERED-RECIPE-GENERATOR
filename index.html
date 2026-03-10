@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>AI Recipe Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🍲 AI Powered Recipe Generator</h1>
+
+<div class="container">
+
+<input id="ingredients" placeholder="Enter ingredients (comma separated)">
+
+<select id="diet">
+<option value="normal">Normal Diet</option>
+<option value="vegan">Vegan</option>
+<option value="gluten">Gluten Free</option>
+<option value="diabetes">Diabetes Friendly</option>
+</select>
+
+<button onclick="generateRecipe()">Generate Recipe</button>
+
+</div>
+
+<div id="recipeContainer"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
